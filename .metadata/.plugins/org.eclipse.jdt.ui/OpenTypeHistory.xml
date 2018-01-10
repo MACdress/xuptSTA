@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=02-serverletContext/D:\/Apache Software Foundation\/Tomcat 9.0\/lib\/servlet-api.jar&lt;javax.servlet(Servlet.class[Servlet" modifiers="1537" timestamp="1498038432000"/>
+<typeInfo handle="=XuptSta/D:\/Java\/lib\/rt.jar&lt;java.lang(String.class[String" modifiers="49" timestamp="1501848333893"/>
+<typeInfo handle="=04-GenericServlet/D:\/Java\/lib\/rt.jar&lt;java.lang(Object.class[Object" modifiers="33" timestamp="1501848333893"/>
+<typeInfo handle="=04-GenericServlet/src&lt;com.xupt.generic{GenericServlet.java[GenericServlet" modifiers="1025" timestamp="1506270354884"/>
+<typeInfo handle="=06-HttpServlet-custom/D:\/Apache Software Foundation\/Tomcat 9.0\/lib\/servlet-api.jar&lt;javax.servlet(GenericServlet.class[GenericServlet" modifiers="1057" timestamp="1498038432000"/>
+</typeInfoHistroy>

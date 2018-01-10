@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XuptSTA | Passage</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel = "stylesheet" href = "css/responsive.css">
+    <link rel = "stylesheet" href = "css/circle.css">
+    <link rel =  "stylesheet" href = "font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="container" style = "width:100%;">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#example-navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="Forum.html">Forum</a>
+        </div>
+        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+            <div class = " navbar-left">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">发现</a></li>
+                    <li><a href="#">消息</a></li>
+                    <li><input type = "text" placeholder="搜索"/>
+                    </li>
+                </ul>
+            </div>
+            <div class = "navbar-right" style = "margin-right:4em;">
+                <ul class="nav navbar-nav">
+                    <li><a href = "enter.html">登录</a></li>
+                    <li><button type = "button" class="btn button2"><a href = "enter.html"><i class="fa fa-pencil" aria-hidden="true"></i>写文章</a></button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </div>
+</nav>
+<div id = "circle" class  = "container">
+    <div class = "row">
+        <div class = "col-md-8 col-md-offset-2">
+            <h2>Java 核心教程</h2>
+            <hr>
+            <div class = "row">
+                <div class ="col-md-12">
+                    <img src = "images/new1.jpg">
+                    <span class = "tag">作者</span>
+                    <span>超级无敌可爱小Mary</span>
+                    <p class = "p1">2017.8.2 14:40  字数:2000 <i class="ic-list-read"></i> 0 评论 2 喜欢 2</p>
+                </div>
+            </div>
+            <div id = "passage">
+                <p>
+                    模态框（Modal）是覆盖在父窗体上的子窗体。通常，目的是显示来自一个单独的源的内容，可以在不离开父窗体的情况下有一些互动。子窗体可提供信息、交互等。
+
+                    如果想要单独引用该插件的功能，那么您需要引用 modal.js。
+
+                    用法
+
+                    可以切换模态框（Modal）插件的隐藏内容：
+
+                    通过 data 属性：在控制器元素（比如按钮或者链接）上设置属性 data-toggle="modal"，同时设置 data-target="#identifier" 或 href="#identifier" 来指定要切换的特定的模态框（带有 id="identifier"）。
+                    通过 JavaScript：使用这种技术，您可以通过简单的一行 JavaScript 来调用带有 id="identifier" 的模态框：
+                    $('#identifier').modal(options)
+
+                    静态模态框实例.png
+
+                    代码讲解：
+                    使用模态窗口，需要有某种触发器。可以使用按钮或链接。
+                    在 标签中，data-target="#myModal" 是想要在页面上加载的模态框的目标。可以在页面上创建多个模态框，然后为每个模态框创建不同的触发器。现在，很明显，能在同一时间加载多个模块，但可以在页面上创建多个在不同时间进行加载。
+                    在模态框中需要注意两点：
+                    第一是 .modal，用来把  的内容识别为模态框。
+                    第二是 .fade class。当模态框被切换时，它会引起内容淡入淡出。
+                    aria-labelledby="myModalLabel"，该属性引用模态框的标题。
+                    属性 aria-hidden="true" 用于保持模态窗口不可见，直到触发器被触发为止（比如点击在相关的按钮上）。
+                    ，modal-header 是为模态窗口的头部定义样式的类。
+                    class="close"，close 是一个 CSS class，用于为模态窗口的关闭按钮设置样式。
+                    data-dismiss="modal"，是一个自定义的 HTML5 data 属性。在这里它被用于关闭模态窗口。
+                    class="modal-body"，是 Bootstrap CSS 的一个 CSS class，用于为模态窗口的主体设置样式。
+                    class="modal-footer"，是 Bootstrap CSS 的一个 CSS class，用于为模态窗口的底部设置样式。
+                    data-toggle="modal"，HTML5 自定义的 data 属性 data-toggle 用于打开模态窗口。
+
+                    外观选项.png
+
+                    与modal一块使用的方法.png
+                    Bootstrap 下拉菜单（Dropdown）插件
+                    通过 data 属性：向链接或按钮添加 data-toggle="dropdown" 来切换下拉菜单，如下所示：
+
+                    如果需要保持链接完整（在浏览器不启用 JavaScript 时有用），请使用 data-target 属性代替 href="#"：
+
+                    通过 JavaScript：通过 JavaScript 调用下拉菜单切换，请使用下面的方法：
+                    $('.dropdown-toggle').dropdown()
+
+                    Bootstrap 滚动监听（Scrollspy）插件
+                    通过 data 属性：向想要监听的元素（通常是 body）添加 data-spy="scroll"。然后添加带有 Bootstrap .nav 组件的父元素的 ID 或 class 的属性 data-target。
+                    通过 JavaScript：可以通过 JavaScript 调用滚动监听，选取要监听的元素，然后调用 .scrollspy() 函数：
+                    $('body').scrollspy({ target: '.navbar-example' })
+                </p>
+            </div>
+            <span class="span1">&copy;著作权归作者所有</span>
+            <hr class = "hr1">
+            <div id = "boot">
+                <img src = "images/new1.jpg">
+                <h1>超级无敌可爱小Mary</h1>
+                <p class = "p1">写了 21858 字，被 2 人关注，获得了 3 个喜欢</p>
+                <hr>
+                <p class="p2">一只潜心研究的超级玛丽。</p>
+            </div>
+            <div class = "div2">
+                <button type = "button" class = "btn"><a><img src = "images/like.png">喜欢 | 22</a></button>
+            </div>
+            <div id = "boot2">
+                <img src = "images/new1.jpg">
+                <div class = "panel panel-group" id = "accordion" >
+                    <div class = "panel panel-default">
+                        <a href = "#collapseOne" data-toggle = "collapse" data-parent = "#accordion" >
+                            <input type = "text" placeholder="说点什么吧..."/>
+                        </a>
+                        <div id = "collapseOne" class = "panel-collapse collapse">
+                            <div class  ="panel-body">
+                                <button type = "button" class = "btn btn-default button2">发表</button>
+                                <button type = "button" class = "btn btn-default button1">取消</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id = "foot">
+        <h4>XuptSTA Forum</h4>
+        <hr>
+        <a class = "btn btn-default" href = "Myself.html">BACK TO MYSELF</a>
+    </div>
+</div>
+</body>
+</html>

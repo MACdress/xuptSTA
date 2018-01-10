@@ -50,9 +50,9 @@
 </div>
 <div region="west" style="width:200px;" title="导航菜单" split="true">
 	<div class="easyui-accordion" data-options="fit:true,border:false">
-		<div title="用户管理" data-options="iconCls:'icon-man',selected:true" style="padding:10px;">
-			<a href="javascript:openTab('用户管理','userManage.jsp','icon-man')" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-man'" style="width: 150px;">管理用户</a>
-		</div>
+		<div " title="用户管理" data-options="iconCls:'icon-man' " style="padding:10px;">
+			<div style="display:none;"><a href="javascript:openTab('用户管理','userManage.jsp','icon-man')" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-man'" style="width: 150px;">管理用户</a>
+		</div></div>
 		<div title="博客管理"  data-options="iconCls:'icon-man'" style="padding:10px;">
 		
 		</div>

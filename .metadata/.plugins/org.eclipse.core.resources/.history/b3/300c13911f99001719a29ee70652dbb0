@@ -1,0 +1,9 @@
+package demo1;
+
+public class Index {
+	private static int a;
+	Integer b=0;
+	public static void main(String[] args) {
+	System.out.println(a==b);
+	}
+	}

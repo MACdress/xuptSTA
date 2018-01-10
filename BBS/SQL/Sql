@@ -1,0 +1,10 @@
+INSERT INTO article VALUES (NULL,0,1,'蚂蚁战胜大象','蚂蚁大战大象',NOW(),1);
+INSERT INTO article VALUES (NULL,1,1,'大象被打趴下','大象被打趴下了',NOW(),1);
+INSERT INTO article VALUES (NULL,2,1,'蚂蚁也不好过','蚂蚁也不好过',NOW(),0);
+INSERT INTO article VALUES (NULL,2,1,'瞎说','瞎说',NOW(),1);
+INSERT INTO article VALUES (NULL,4,1,'没有瞎说','没有瞎说',NOW(),0);
+INSERT INTO article VALUES (NULL,1,1,'怎么可能','怎么可能',NOW(),0);
+INSERT INTO article VALUES (NULL,6,1,'怎么没有可能','怎么没有可能',NOW(),0);
+INSERT INTO article VALUES (NULL,6,1,'可能性是很大的','可能性是很大的',NOW(),0);
+INSERT INTO article VALUES (NULL,2,1,'大象进医院了','大象进医院了',NOW(),1);
+INSERT INTO article VALUES (NULL,9,1,'护士是蚂蚁','护士是蚂蚁',NOW(),0);

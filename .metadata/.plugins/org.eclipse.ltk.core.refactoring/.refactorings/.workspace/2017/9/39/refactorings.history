@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;07-HttpServlet&apos; to &apos;07-commmDefineServlet&apos;" description="Rename resource &apos;07-HttpServlet&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/07-HttpServlet" name="07-commmDefineServlet" stamp="1506273237259" updateReferences="true"/>
+</session>

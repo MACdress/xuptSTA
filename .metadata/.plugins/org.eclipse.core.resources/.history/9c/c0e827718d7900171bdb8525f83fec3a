@@ -1,0 +1,31 @@
+package demo_web;
+
+import java.util.List;
+
+import org.dom4j.Document;
+import org.dom4j.DocumentException;
+import org.dom4j.Element;
+import org.dom4j.io.SAXReader;
+import org.junit.Test;
+
+public class TestDome4j {
+	@Test
+	public void test1() throws DocumentException {
+		SAXReader reader = new SAXReader();// 创建一个xml解析对象
+		Document document = reader.read("src/Book.xml");// 那xml文档加载到document对象中
+		// 即加载到内存中
+		Element root = document.getRootElement();//得到xml的根节点
+		List  list = root.elements();//得到当前所有的子节点。
+		Element temp = (Element) list.get(1);//得到第二本书的对象
+		System.out.println(temp.element("书名").getText());
+	}
+	public void test2() throws DocumentException{
+		SAXReader reader = new SAXReader();
+		Document document = reader.read("src/Bool.xml");
+		Element root = document.getRootElement();//获取根节点
+		treewalk(root);
+	}
+	public static void main(String[] args) throws DocumentException {
+		new TestDome4j().test1();
+	}
+}

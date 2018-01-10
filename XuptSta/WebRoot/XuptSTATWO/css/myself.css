@@ -1,0 +1,101 @@
+/*左边********************************************************/
+#introduce{
+    width:100%;
+    background-color:#E4E4E4;
+}
+#introduce img{
+    width:10em;
+    height:10em;
+    margin-top:-5em;
+    color:#555555;
+    border-radius: 50%;
+}
+#introduce .div1{
+    height:13em;
+    background-attachment: fixed;
+    background: #515151;
+}
+#introduce .div2{
+    height:30em;
+    background-attachment: fixed;
+    background: #eee;
+    margin-top:-4.7em;
+}
+#introduce .div3{
+    margin-top:3em;
+    border:1px dashed #ebcccc;
+}
+#introduce .div2 h1{
+    font-family:'Open Sans', sans-serif;
+    font-size:2em;
+    color:#2e2e2e;
+    margin-top:3em;
+    padding-bottom:5em;
+}
+#introduce .div2 p{
+    font-family:'Open Sans', sans-serif;
+    font-size:1em;
+    color:#2e2e2e;
+    margin-top:-10em;
+    padding-bottom:0;
+}
+#introduce .div3 li{
+    text-align:left;
+}
+/*右边******************************************************/
+#right{
+    margin-top:1em;
+}
+#right .row{
+    background:#eee;
+    margin-bottom:2em;
+}
+#right h2{
+    font-family:'Open Sans', sans-serif;
+    font-size:1.5em;
+    color:#2e2e2e;
+    margin:0.8em 0.6em 1.2em 0.8em;
+}
+#right h3{
+    font-family:'Open Sans', sans-serif;
+    font-size:1.1em;
+    font-weight:bold;
+    color:#2e2e2e;
+    margin:0.8em 0.6em 0.5em 0.8em;
+}
+#right p{
+    font-family:'Open Sans', sans-serif;
+    font-size:0.9em;
+    color:#555555;
+    margin-left:1.1em;
+}
+#right hr{
+    border:1px solid #ECE9E9;
+    margin-bottom:0.2em;
+    margin-top:0;
+}
+#right ul{
+    margin-left:0.8em;
+    padding-left:0;
+}
+#right li{
+    font-family:'Open Sans', sans-serif;
+    font-size:0.9em;
+    color:#555555;
+    margin-left:1em;
+    margin-top:1em;
+}
+#right .row span.label{
+    float:right;
+    margin-right:1em;
+    margin-top:-3.5em;
+}
+#right .row a.label{
+    margin-top:1em;
+    margin-left:1em;
+}
+#right button{
+    float:right;
+    margin-top:-3em;
+    margin-right:1em;
+}

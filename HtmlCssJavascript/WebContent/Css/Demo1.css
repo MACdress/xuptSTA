@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+
+.one {
+	font-size: 18px;
+	font-family: 宋体, 黑体;
+	font-style: oblique;
+}
+
+.one b {
+	font-weight: normal;
+	font-size: 50%;
+	<!--
+	相对父标签字体大小的一半--
+	>
+}
+
+.two {
+	font-size: 20px;
+	line-height: 100px;
+	color: blue;
+	letter-spacing: 10px;
+	text-indent: 30px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-align: center;
+}
+
+<!--
+边框与背景元素-->#one {
+	width: 200px;
+	height: 300px;
+	border-width: 2px;`
+	border-style: dashed;
+	border-color: blue;
+}
+
+body {
+	background-image: url("../image/link.jpg");
+	background-position: 20% 50%;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: 300px, 300px;
+	background-position: 20% 50%;
+}
+body

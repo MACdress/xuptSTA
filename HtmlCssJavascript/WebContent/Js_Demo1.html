@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+	function testConfirm(){//带有确定和取消的对话框
+		var confirm=window.confirm("是否退出");
+		if(confirm){
+			window.close()//专门用来关闭浏览器
+		}else{
+			window.alert("*_*");
+		}
+	}
+	function testPrompt(){//带有输入的对话框
+		var prompt=window.prompt("请输入密码","123");
+		alert(prompt);
+	}
+	function testMoveTo()(){//带有输入的对话框
+		window.moveTo(250,250);
+	}
+	function testMoveBy(){//带有输入的对话框
+		window.moveBy(50,50);
+	}
+	function testResizeTo(){//带有输入的对话框
+		window.resizeTo(350,350);
+	}
+	function testResizeBy(){//带有输入的对话框
+		window.resizeBy(50,50);
+	}
+</script>
+</head>
+<body>
+	<input value="confirm" onclick="testConfirm()" type="button" />
+	<br />
+	<input value="prompt" onclick="testPrompt()" type="button" />
+	<br />
+	<!-- 设置浏览器窗口的大小与位置-->
+	<input value="moveTo" onclick="testMoveTo()" type="button" />
+	<br />
+	<input value="moveBy" onclick="testMoveBy()" type="button" />
+	<br />
+	<input value="resizeTo" onclick="testResizeTo()" type="button" />
+	<br />
+	<input value="resizeBy" onclick="testResizeBy()" type="button" />
+	<br />
+</body>
+</html>

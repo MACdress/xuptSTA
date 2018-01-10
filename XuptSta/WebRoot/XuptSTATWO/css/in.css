@@ -1,0 +1,178 @@
+#in{
+    width:100%;
+    background:#F1f1f1;
+    padding:1em;
+}
+#in h1{
+    font-size:2.5em;
+    font-weight:bold;
+    color:#179E83;
+    margin:1em 1em;
+}
+#in h1 a{
+    color:#179E83;
+    text-decoration: none;
+}
+#in h1 a:hover,#in h1 a:focus{
+    color:#179E83;
+    text-decoration: none;
+}
+#in .div1{
+    border:3px solid #EaEaEA;
+    background:#fff;
+    height:35em;
+    width:28em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:7em;
+    text-align:center;
+    margin-top:-3em;
+}
+#in .div2{
+    margin:3em auto;
+    padding:1em 1em;
+}
+#in .div2 a{
+    font-size:1.3em;
+    text-decoration: none;
+    color:#A79696;
+    padding-left:1em;
+    padding-right:1em;
+    padding-bottom:0.6em;
+}
+#in .div2 a:hover{
+    border-bottom: 3px solid #EA6F5A;
+}
+#in .div2 .active,#in .div2 a:focus{
+    font-size:1.3em;
+    font-weight:600;
+    color:#EA6F5A;
+    border-bottom: 3px solid #EA6F5A;;
+}
+#in .div2 b{
+    color:#A79696;
+}
+#in .div3{
+    width:70%;
+    background-color: #ffffff;
+    border: 1px solid #C8C8C8;
+    border-radius:3px;
+    font-size: 1em;
+    text-align: center;
+    margin:0 auto;
+}
+#in .div3 input{
+    height: 3em;
+    line-height: 1.8em;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding:0;
+}
+#in .div3 input::-webkit-input-placeholder {
+    margin-left:1em;
+    color:#A2A5A5;
+    font-size:1em;
+}
+#in .div3 .user{
+     background:url(../images/user.png) no-repeat 0 0;
+     background-color:#eee;
+     background-position: 15px 10px;
+     padding-left:2.3em;
+     padding-top:10px;
+     padding-bottom:10px;
+     line-height:20px
+ }
+#in .div3 .lock{
+    background:url(../images/lock.png) no-repeat 0 0;
+    background-color:#eee;
+    background-position: 15px 10px;
+    padding-left:2.3em;
+    padding-top:10px;
+    padding-bottom:10px;
+    line-height:20px
+}
+#in .div4{
+    width:70%;
+    font-size: 1em;
+    text-align: left;
+    margin:0 auto;
+    padding-top:1em;
+}
+#in .div4 span{
+    font-size:0.8em;
+    color:#4e4e4e;
+    margin-left:0.5em;
+}
+#in .div4 button{
+    margin-top:3em;
+    width:100%;
+    border-radius:8em;
+    height:3em;
+    font-size:1.2em;
+    background:#498ad5;
+}
+#in .div4 button a{
+    outline: none;
+    text-decoration: none;
+    color:#fff;
+}
+#in .div4 button:hover,#in .div4 button:focus{
+    outline: none;
+    text-decoration: none;
+    color:#fff;
+    background-color:#187CB7;
+}
+
+/************************register************************/
+#in .panel{
+    background-color: #ffffff;
+    font-size: 1em;
+    margin:0 auto;
+}
+#in .panel-body{
+    width:100%;
+    padding:0;
+}
+#in .div6{
+    width:100%;
+    background-color: #ffffff;
+    border-top:1px solid #C8c8c8;
+    border-radius:3px;
+    font-size: 1em;
+    margin:0 auto;
+}
+#in .div6 .sec{
+    background:url(../images/sec.png) no-repeat 0 0;
+    background-color:#eee;
+    background-position: 11px 10px;
+    padding-left:2.3em;
+    padding-top:10px;
+    padding-bottom:10px;
+    line-height:20px
+}
+#in .div6 input{
+    width:50%;
+    float:left;
+}
+#in .div6 button{
+    width:36%;
+    border-radius:8em;
+    font-size:1em;
+    height:2.4em;
+    background:#3db922;
+    margin-top:0.5em;
+    border:none;
+    color:#fff;
+}
+#in .div6 button a{
+    outline: none;
+    text-decoration: none;
+    color:#fff;
+}
+#in .div6 button:hover,#in .div6 button:focus{
+    outline: none;
+    text-decoration: none;
+    color:#fff;
+    background-color:#00bb29;
+}

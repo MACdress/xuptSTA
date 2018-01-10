@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forum | Enter</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel = "stylesheet" href="css/index.css">
+    <link rel = "stylesheet" href = "css/responsive.css">
+    <link rel = "stylesheet" href = "css/in.css">
+    <link rel = "stylesheet" href = "font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div id = "in" class = "container" style = "width:100%;">
+    <h1><a href = "Forum.html">Forum</a></h1>
+    <div class = "div1">
+        <div class = "div2">
+            <a class = "active" href = "enter.html">登录</a>
+        </div>
+        <div class="div3">
+            <div class = "panel panel-group" id = "accordion" >
+                <div class = "panel panel-default">
+                    <a href = "#collapseOne" data-toggle = "collapse" data-parent = "#accordion" >
+                        <input placeholder="Username or phone" class = "user" type="text" name="email_or_number]" id="phone" />
+                    </a>
+                    <div id = "collapseOne" class = "panel-collapse collapse">
+                        <div class  ="panel-body">
+                            <div class="div6">
+                                <input placeholder="code" class = "sec" type="text" name="Security code" id="Security code" />
+                                <button type = button class = "btn btn-default">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div3">
+            <input placeholder="Password" class = "lock" type="password" name="email_or_number]" id="email_or_number" />
+        </div>
+        <div class = "div4">
+            <input  type="checkbox"/><span>记住密码</span>
+        </div>
+        <div class = "div4">
+            <button type = "button" class = "btn btn-primary"><a href = "loginForum.html">Sign in</a></button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

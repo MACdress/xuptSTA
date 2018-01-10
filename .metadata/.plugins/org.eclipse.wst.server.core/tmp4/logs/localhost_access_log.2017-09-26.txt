@@ -1,0 +1,7 @@
+127.0.0.1 - - [26/Sep/2017:00:52:26 +0800] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [26/Sep/2017:00:52:27 +0800] "GET /08-requestParameter/demo1 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [26/Sep/2017:00:52:37 +0800] "GET /08-requestParameter/index.html HTTP/1.1" 200 332
+0:0:0:0:0:0:0:1 - - [26/Sep/2017:00:52:46 +0800] "POST /08-requestParameter/register HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [26/Sep/2017:00:55:12 +0800] "POST /08-requestParameter/register HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [26/Sep/2017:01:00:21 +0800] "POST /08-requestParameter/register HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [26/Sep/2017:01:03:13 +0800] "POST /08-requestParameter/register HTTP/1.1" 200 -

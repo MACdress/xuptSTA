@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-serverletCyle/01-serverletCyle.iml" filepath="$PROJECT_DIR$/01-serverletCyle/01-serverletCyle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-serverletContext/02-serverletContext.iml" filepath="$PROJECT_DIR$/02-serverletContext/02-serverletContext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-serverletUrlPattern/03-serverletUrlPattern.iml" filepath="$PROJECT_DIR$/03-serverletUrlPattern/03-serverletUrlPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-GenericServlet/04-GenericServlet.iml" filepath="$PROJECT_DIR$/04-GenericServlet/04-GenericServlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-GenericServlet2/05-GenericServlet2.iml" filepath="$PROJECT_DIR$/05-GenericServlet2/05-GenericServlet2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-HttpServlet-custom/06-HttpServlet-custom.iml" filepath="$PROJECT_DIR$/06-HttpServlet-custom/06-HttpServlet-custom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-commmDefineServlet/07-commmDefineServlet.iml" filepath="$PROJECT_DIR$/07-commmDefineServlet/07-commmDefineServlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-requestParameter/08-requestParameter.iml" filepath="$PROJECT_DIR$/08-requestParameter/08-requestParameter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BBS/BBS.iml" filepath="$PROJECT_DIR$/BBS/BBS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FanShe/FanShe.iml" filepath="$PROJECT_DIR$/FanShe/FanShe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUI/GUI.iml" filepath="$PROJECT_DIR$/GUI/GUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HtmlCssJavascript/HtmlCssJavascript.iml" filepath="$PROJECT_DIR$/HtmlCssJavascript/HtmlCssJavascript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JDBC_Demo1/JDBC_Demo1.iml" filepath="$PROJECT_DIR$/JDBC_Demo1/JDBC_Demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JDBC_JAVA/JDBC_JAVA.iml" filepath="$PROJECT_DIR$/JDBC_JAVA/JDBC_JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyException/MyException.iml" filepath="$PROJECT_DIR$/MyException/MyException.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RegularExpression/RegularExpression.iml" filepath="$PROJECT_DIR$/RegularExpression/RegularExpression.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" filepath="$PROJECT_DIR$/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Servers/Servers.iml" filepath="$PROJECT_DIR$/Servers/Servers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sort/Sort.iml" filepath="$PROJECT_DIR$/Sort/Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XML/XML.iml" filepath="$PROJECT_DIR$/XML/XML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XuptSta/XuptSta.iml" filepath="$PROJECT_DIR$/XuptSta/XuptSta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backTracking/backTracking.iml" filepath="$PROJECT_DIR$/backTracking/backTracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data_structure/data_structure.iml" filepath="$PROJECT_DIR$/data_structure/data_structure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo1/demo1.iml" filepath="$PROJECT_DIR$/demo1/demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod/mod.iml" filepath="$PROJECT_DIR$/mod/mod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod1/mod1.iml" filepath="$PROJECT_DIR$/mod1/mod1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mod2/mod2.iml" filepath="$PROJECT_DIR$/mod2/mod2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mysql/mysql.iml" filepath="$PROJECT_DIR$/mysql/mysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practices/practices.iml" filepath="$PROJECT_DIR$/practices/practices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/supermarket/supermarket.iml" filepath="$PROJECT_DIR$/supermarket/supermarket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiancheng/xiancheng.iml" filepath="$PROJECT_DIR$/xiancheng/xiancheng.iml" />
+    </modules>
+  </component>
+</project>

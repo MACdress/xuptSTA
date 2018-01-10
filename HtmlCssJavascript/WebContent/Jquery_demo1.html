@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	table,tr,th{
+		border:1px solid red;
+		border-collapse:collpase;
+	}
+</style>
+<script src="jquery-1.8.3.js"></script>
+<script>
+	$(function(){
+		$("tr:even").css("background","red");
+	})
+	$(function(){
+		//alert("jquery");
+		//var name=document.getElementById("name");
+		//alert(name.innerHTML);
+	//	name.innerHTML="gaopan";
+		var name1=$("#name").html("gaopan");
+		alert(name1);
+	})
+</script>
+</head>
+<body>
+	<table cellspacing="0" cellpadding="0">
+		<tr><th>aaaa</th><th>aaaa</th><th>aaaa</th></tr>
+		<tr><th>aaaa</th><th>aaaa</th><th>aaaa</th></tr>
+		<tr><th>aaaa</th><th>aaaa</th><th>aaaa</th></tr>
+		<tr><th>aaaa</th><th>aaaa</th><th>aaaa</th></tr>
+		<tr><th>aaaa</th><th>aaaa</th><th>aaaa</th></tr>
+	</table>
+	<p id="name">杨迪</p>
+</body>
+</html>

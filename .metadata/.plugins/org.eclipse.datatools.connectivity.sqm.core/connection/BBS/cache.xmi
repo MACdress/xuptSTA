@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SQLAccessControl="http:///org/eclipse/datatools/modelbase/sql/accesscontrol.ecore" xmlns:SQLConstraints="http:///org/eclipse/datatools/modelbase/sql/constraints.ecore" xmlns:SQLDataTypes="http:///org/eclipse/datatools/modelbase/sql/datatypes.ecore" xmlns:SQLSchema="http:///org/eclipse/datatools/modelbase/sql/schema.ecore" xmlns:SQLTables="http:///org/eclipse/datatools/modelbase/sql/tables.ecore">
+  <SQLSchema:Database name="bbs" vendor="MySql" version="5.1" schemas="/1" authorizationIds="/3 /4">
+    <eAnnotations source="ConnectionURI">
+      <details key="ConnectionKey" value="BBS"/>
+    </eAnnotations>
+  </SQLSchema:Database>
+  <SQLSchema:Schema name="bbs" tables="/2" database="/0"/>
+  <SQLTables:PersistentTable name="article" schema="/1">
+    <columns name="id" description="" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="pid" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="rootid" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <columns name="tittle" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="255"/>
+    </columns>
+    <columns name="cont" description="">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="TEXT" primitiveType="CHARACTER_LARGE_OBJECT"/>
+    </columns>
+    <columns name="padte" description="">
+      <containedType xsi:type="SQLDataTypes:TimeDataType" name="DATETIME" primitiveType="TIMESTAMP"/>
+    </columns>
+    <columns name="isleaf" description="">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INT" primitiveType="INTEGER"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" name="PRIMARY" members="/2/id"/>
+  </SQLTables:PersistentTable>
+  <SQLAccessControl:User name="root [localhost]" label="root [localhost]" Database="/0"/>
+  <SQLAccessControl:User name="root [%]" label="root [%]" Database="/0"/>
+</xmi:XMI>

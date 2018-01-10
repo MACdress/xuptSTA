@@ -1,0 +1,12 @@
+package demo_web;
+
+import org.dom4j.io.SAXReader;
+import org.junit.Test;
+
+public class TestDome4j {
+	@Test
+public void test1(){
+	SAXReader reader = new SAXReader();//创建一个xml解析对象
+	reader.read("Book.xml");
+}
+}

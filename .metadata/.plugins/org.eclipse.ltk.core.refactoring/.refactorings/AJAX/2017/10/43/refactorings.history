@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;AJAX/WebContent/1&apos; to &apos;1.txt&apos;" description="Rename resource &apos;1&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/1" name="1.txt" stamp="1508936862552" updateReferences="true"/>
+</session>

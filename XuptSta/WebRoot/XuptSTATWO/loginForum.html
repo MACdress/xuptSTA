@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XuptSTA | Forum</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel = "stylesheet" href="css/index.css">
+    <link rel = "stylesheet" href = "css/responsive.css">
+    <link rel = "stylesheet" href = "css/blog.css">
+    <link rel = "stylesheet" href = "font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        var page_num=2;
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if($(document).scrollTop()>=$(document).height()-$(window).height()){
+                    var div1tem = $('#collect').height();
+                    var str ='';
+                    $.ajax({
+                        type:"GET",
+                        url:'ajaxdata',
+                        dataType:'json',
+                        beforeSend:function(){
+                            $('.ajax_loading').show();
+                        },
+                        success:function(ret){
+                            $(".after_div").before(ret);
+                            $('.ajax_loading').hide();
+                        }
+                    })
+                }
+            })
+        })
+    </script>
+</head>
+<body>
+<nav id = "top" class="navbar navbar-default" role="navigation">
+    <div class="container" style = "width:100%;">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#example-navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="XuptSTA.html">XuptSTA</a>
+        </div>
+        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href = "Forum.html">首页</a></li>
+                <li><input type = "text" placeholder="搜索"></li>
+            </ul>
+            <ul class = "nav navbar-nav navbar-right">
+                <li><button type = "button" class="btn button2"><a href = "#"><i class="fa fa-pencil" aria-hidden="true"></i>写文章</a></button></li>
+            </ul>
+            <div class = "dropdown nav navbar-nav navbar-right">
+                <img src = "images/new1.jpg">
+                    <span class="caret"></span>
+                <ul class = "dropdown-menu" role = "menu" aria-labelledby="dropdownMenu1">
+                    <li role = "presentation">
+                        <a role = "menuitem" href = "Myself.html" tabindex ="-1">我的主页</a>
+                    </li>
+                    <li role = "presentation">
+                        <a role = "menuitem" href = "Collection.html"  tabindex = "-1">我的收藏</a>
+                    </li>
+                    <li role = "presentation">
+                        <a role = "menuitem" href = "enter.html" tabindex = "-1">退出</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<div id = "topper" class = "container">
+    <div class = "row">
+        <div class = "col-md-10 col-md-offset-1">
+            <div id = "myCarousel" class = "carousel slide" data-ride="carousel" data-interval="2000" >
+                <ol class = "carousel-indicators">
+                    <li data-target = "#myCarousel" data-slide-to = "0" class = "active"></li>
+                    <li data-target = "#myCarousel" data-slide-to = "1"></li>
+                    <li data-target = "#myCarousel" data-slide-to = "2"></li>
+                </ol>
+                <div class = "carousel-inner">
+                    <div class = "item active">
+                        <img class="img-responsive" src = "images/about1.jpg" alt = "slider">
+                    </div>
+                    <div class = "item">
+                        <img class="img-responsive" src = "images/about2.jpg" alt = "slider">
+                    </div>
+                    <div class = "item">
+                        <img class="img-responsive" src = "images/about3.jpg" alt = "slider">
+                    </div>
+                </div>
+                <a class = "carousel-control left" href = "#myCarousel" data-slide="prev">&lsaquo;</a>
+                <a class = "carousel-control right" href = "#myCarousel" data-slide = "next">&rsaquo;</a>
+            </div>
+            <div id = "mid" class = "row">
+                <div class = "col-md-8 col-xs-8 col-sm-8 div1">
+                    <div class = "div2">
+                        <a href = "Myself.html"><img class = "img" src = "images/new1.jpg"></a>
+                        <span>超级可爱无敌小Mary</span>
+                        <span class = "span1">昨天 14:26</span>
+                        <div class = "row">
+                            <div class = "col-md-8 col-xs-8 col-sm-8">
+                                <h1><a href = "Passage.html">Java从入门到精通</a></h1>
+                                <p>Java开发的三个方向：1、Java SE:主要用于桌面程序的开发；2、Java EE：主要用于网页程序的开发；
+                                    3、Java ME：主要用于嵌入式系统程序的开发。
+                                </p>
+                                <a href = "Passage.html"><i class="fa fa-eye" aria-hidden="true"></i></a><span class = "pi">4567</span>
+                                <i class="fa fa-commenting" aria-hidden="true"></i><span class = "pi">3</span>
+                                <i class="fa fa-heart" aria-hidden="true"></i><span class = "pi">454</span>
+                            </div>
+                            <div class = "col-md-4 col-xs-4 col-sm-4">
+                                <img class = "img1" src = "images/new1.jpg" alt = "image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "div2">
+                        <a href = "Myself.html"><img class = "img" src = "images/new1.jpg"></a>
+                        <span>超级可爱无敌小Mary</span>
+                        <span class = "span1">昨天 14:26</span>
+                        <div class = "row">
+                            <div class = "col-md-8 col-xs-8 col-sm-8">
+                                <h1><a href = "Passage.html">Java从入门到精通</a></h1>
+                                <p>Java开发的三个方向：1、Java SE:主要用于桌面程序的开发；2、Java EE：主要用于网页程序的开发；
+                                    3、Java ME：主要用于嵌入式系统程序的开发。
+                                </p>
+                                <a href = "Passage.html"><i class="fa fa-eye" aria-hidden="true"></i></a><span class = "pi">4567</span>
+                                <i class="fa fa-commenting" aria-hidden="true"></i><span class = "pi">3</span>
+                                <i class="fa fa-heart" aria-hidden="true"></i><span class = "pi">454</span>
+                            </div>
+                            <div class = "col-md-4 col-xs-4 col-sm-4">
+                                <img class = "img1" src = "images/new1.jpg" alt = "image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "div2">
+                        <a href = "Myself.html"><img class = "img" src = "images/new1.jpg"></a>
+                        <span>超级可爱无敌小Mary</span>
+                        <span class = "span1">昨天 14:26</span>
+                        <div class = "row">
+                            <div class = "col-md-8 col-xs-8 col-sm-8">
+                                <h1><a href = "Passage.html">Java从入门到精通</a></h1>
+                                <p>Java开发的三个方向：1、Java SE:主要用于桌面程序的开发；2、Java EE：主要用于网页程序的开发；
+                                    3、Java ME：主要用于嵌入式系统程序的开发。
+                                </p>
+                                <a href = "Passage.html"><i class="fa fa-eye" aria-hidden="true"></i></a><span class = "pi">4567</span>
+                                <i class="fa fa-commenting" aria-hidden="true"></i><span class = "pi">3</span>
+                                <i class="fa fa-heart" aria-hidden="true"></i><span class = "pi">454</span>
+                            </div>
+                            <div class = "col-md-4 col-xs-4 col-sm-4">
+                                <img class = "img1" src = "images/new1.jpg" alt = "image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "div2">
+                        <a href = "Myself.html"><img class = "img" src = "images/new1.jpg"></a>
+                        <span>超级可爱无敌小Mary</span>
+                        <span class = "span1">昨天 14:26</span>
+                        <div class = "row">
+                            <div class = "col-md-8 col-xs-8 col-sm-8">
+                                <h1><a href = "Passage.html">Java从入门到精通</a></h1>
+                                <p>Java开发的三个方向：1、Java SE:主要用于桌面程序的开发；2、Java EE：主要用于网页程序的开发；
+                                    3、Java ME：主要用于嵌入式系统程序的开发。
+                                </p>
+                                <a href = "Passage.html"><i class="fa fa-eye" aria-hidden="true"></i></a><span class = "pi">4567</span>
+                                <i class="fa fa-commenting" aria-hidden="true"></i><span class = "pi">3</span>
+                                <i class="fa fa-heart" aria-hidden="true"></i><span class = "pi">454</span>
+                            </div>
+                            <div class = "col-md-4 col-xs-4 col-sm-4">
+                                <img class = "img1" src = "images/new1.jpg" alt = "image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "div2">
+                        <a href = "Myself.html"><img class = "img" src = "images/new1.jpg"></a>
+                        <span>超级可爱无敌小Mary</span>
+                        <span class = "span1">昨天 14:26</span>
+                        <div class = "row">
+                            <div class = "col-md-8 col-xs-8 col-sm-8">
+                                <h1><a href = "Passage.html">Java从入门到精通</a></h1>
+                                <p>Java开发的三个方向：1、Java SE:主要用于桌面程序的开发；2、Java EE：主要用于网页程序的开发；
+                                    3、Java ME：主要用于嵌入式系统程序的开发。
+                                </p>
+                                <a href = "Passage.html"><i class="fa fa-eye" aria-hidden="true"></i></a><span class = "pi">4567</span>
+                                <i class="fa fa-commenting" aria-hidden="true"></i><span class = "pi">3</span>
+                                <i class="fa fa-heart" aria-hidden="true"></i><span class = "pi">454</span>
+                            </div>
+                            <div class = "col-md-4 col-xs-4 col-sm-4">
+                                <img class = "img1" src = "images/new1.jpg" alt = "image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="after_div"></div>
+                    <div class="ajax_loading text-center"><img src = "images/加载.gif"></div>
+                </div>
+                <div id = "right" class = "col-md-4 col-xs-4 col-sm-4 div1">
+                    <div class = "div3">
+                        <h2><a href = "loginForum.html">新上榜 &raquo;</a></h2>
+                    </div>
+                    <div class = "div4">
+                        <h2><a href = "loginForum.html">7日热门 &raquo;</a></h2>
+                    </div>
+                    <div class = "div5">
+                        <h2><a href = "recent.html">实验室动态 &raquo;</a></h2>
+                    </div>
+                    <div class = "div6">
+                        <span>推荐文章</span>
+                        <div class = "div7">
+                            <div class = "row">
+                                <div class = "col-md-4 col-sm-4 col-xs-4">
+                                    <img src =  "images/new1.jpg">
+                                </div>
+                                <div class = "col-md-8  col-sm-8 col-xs-8">
+                                    <p><a href = "Passage.html">Java开发的三个方向：1、Java SE:主要用于桌面程序的开发</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "div7">
+                            <div class = "row">
+                                <div class = "col-md-4 col-sm-4 col-xs-4">
+                                    <img src =  "images/new1.jpg">
+                                </div>
+                                <div class = "col-md-8  col-sm-8 col-xs-8">
+                                    <p><a href = "Passage.html">Java开发的三个方向：1、Java SE:主要用于桌面程序的开发</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "div7">
+                            <div class = "row">
+                                <div class = "col-md-4 col-sm-4 col-xs-4">
+                                    <img src =  "images/new1.jpg">
+                                </div>
+                                <div class = "col-md-8  col-sm-8 col-xs-8">
+                                    <p><a href = "Passage.html">Java开发的三个方向：1、Java SE:主要用于桌面程序的开发</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "div7">
+                            <div class = "row">
+                                <div class = "col-md-4 col-sm-4 col-xs-4">
+                                    <img src =  "images/new1.jpg">
+                                </div>
+                                <div class = "col-md-8  col-sm-8 col-xs-8">
+                                    <p><a href = "Passage.html">Java开发的三个方向：1、Java SE:主要用于桌面程序的开发</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "div7">
+                            <div class = "row">
+                                <div class = "col-md-4 col-sm-4 col-xs-4">
+                                    <img src =  "images/new1.jpg">
+                                </div>
+                                <div class = "col-md-8  col-sm-8 col-xs-8">
+                                    <p><a href = "Passage.html">Java开发的三个方向：1、Java SE:主要用于桌面程序的开发</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

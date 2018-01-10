@@ -1,0 +1,7 @@
+package com.gp.serverlet;
+
+import java.io.Serializable;
+
+public class Server implements Servlet{
+
+}

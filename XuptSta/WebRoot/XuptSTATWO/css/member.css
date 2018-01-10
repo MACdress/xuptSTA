@@ -1,0 +1,128 @@
+.member-content{
+    top: 50%;
+    margin-top: -30px;
+    left: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.member-content h2{
+    font-size:1.3em;
+    font-family:'Open Sans', sans-serif;
+    color:#eee;
+    float:right;
+}
+.member-content .logo{
+    font-size:1.1em;
+    font-weight:bold;
+    font-family: 'Open Sans', sans-serif;
+    color:#5b8e2e;
+}
+.member-content span{
+    padding-right:0;
+}
+.container hr{
+    width:100%;
+    border:1px solid #555555;
+    margin-bottom:0;
+    padding-bottom:0;
+}
+.container .hr1{
+    border:1px solid #fff;
+}
+/*照片按钮********************************************/
+.photo{
+    list-style: none outside none;
+    margin: 6em 0 3em 0;
+    padding: 0;
+}
+.photo  li {
+    display: inline-block;
+    width: 104px;
+}
+@media (max-width: 400px) {
+    .photo li {
+        display: inline-block;
+        width: 60px;
+    }
+}
+.photo li a {
+    background: none repeat scroll 0 0 #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 10px;
+    text-transform: uppercase;
+    transition: all 0.9s ease 0s;
+    -moz-transition: all 0.9s ease 0s;
+    -webkit-transition: all 0.9s ease 0s;
+    -o-transition: all 0.9s ease 0s;
+    border: 1px solid #F2F2F2;
+    outline: none;
+    border-radius: 3px;
+}
+@media (max-width: 400px) {
+    .photo li a {
+        background: none repeat scroll 0 0 #FFFFFF;
+        font-size: 10px;
+        font-weight: 200;
+        margin-right: 50px;
+        text-transform: uppercase;
+        transition: all 0.9s ease 0s;
+        -moz-transition: all 0.9s ease 0s;
+        -webkit-transition: all 0.9s ease 0s;
+        -o-transition: all 0.9s ease 0s;
+        border: 1px solid #F2F2F2;
+        outline: none;
+        border-radius: 3px;
+    }
+}
+.photo li a:hover, .photo li a.active {
+    color: #fff;
+    background: #5b8e2e;
+    border: 1px solid #5b8e2e;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.photo .btn-default.active.focus, .photo .btn-default.active:focus, .photo .btn-default.active:hover, .photo .btn-default:active.focus, .photo .btn-default:active:focus, .photo .btn-default:active:hover {
+    color: #fff;
+    background-color: #5b8e2e;
+    border-color: #5b8e2e;
+    outline: none;
+}
+/*照片组**************************************************************/
+.div3 .container .row{
+    margin-top:1em;
+    margin-bottom:4em;
+}
+.container .div1{
+    background-color:#D4D4D4;
+}
+.container .img{
+    width:90%;
+    height:15em;
+    border:1px solid #555555;
+}
+.div3{
+    width:100%;
+    background-color:#EEEEEE;
+}
+.div3 h5{
+    float:left;
+    font-family: 'Open Sans', sans-serif;
+    font-size:1em;
+    color:#9999B3;
+    margin-left:1em;
+}
+.div3 .hr3{
+    border:1px dashed #DFDFDF;
+    width:80%;
+}
+.div3 p{
+    float:left;
+    font-family:'Open Sans', sans-serif;
+    font-size:0.9em;
+    color:#9999B3;
+    margin-left:1em;
+}

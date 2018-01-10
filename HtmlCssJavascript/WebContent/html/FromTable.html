@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form name="regFrom" method="get" action="http://www.baidu.com.cn">
+		<p>
+			姓名<input type="text" name="username" id="username" maxlength="10" />
+		</p>
+		<p>
+			<label for="password">密码框</label><input type="password"
+				name="password" id="password" maxlength="10" />
+		</p>
+		<p>性别：</p>
+		<p>
+			男<input type="radio" name="sex" id="male" checked="checked" /> 女<input
+				type="radio" name="sex" id="female" />
+		</p>
+		<p>兴趣爱好:</p>
+		<p>
+			<input type="checkbox" name="hobby" id="ball" />篮球
+		</p>
+		<p>
+			<input type="checkbox" name="hobby" id="ball" />足球
+		</p>
+		<p>
+			<input type="checkbox" name="hobby" id="ball" />羽毛球
+		</p>
+		<p>
+			文件上传: <input type="file" name="file" />
+		</p>
+		<p>
+			提交 <input type="submit" name="submit" value="我要提交" />
+		</p>
+		<p>
+			点击 <input type="button" name="button" value="点击" />
+		</p>
+		<p>
+			重置 <input type="reset" name="reset" value="我要重置" />
+		</p>
+		<button name="submit2" type="submit">提交</button>
+		<button name="reset2" type="reset">
+			<b>重置</b>
+		</button>
+		<button name="button2" type="button" disabled="disabled">
+			<i>点击</i>
+		</button>
+		所在城市：</br> <select name="city" id="city">
+			<option>请选择</option>
+			<option>北京</option>
+			<option>上海</option>
+			<option>南京</option>
+			<option>天津</option>
+		</select> 列表框: </br> <select name="city2" id="city2" size="3">
+			<optgroup label="一线城市">
+				<option>北京</option>
+				<option>上海</option>
+				<option>南京</option>
+				<option>天津</option>
+			</optgroup>
+			<optgroup label="二线城市">
+				<option>杭州</option>
+				<option>大连</option>
+				<option>大脸</option>
+				<option>打脸</option>
+			</optgroup>
+		</select> 同意以下条款:</br>
+		<textarea name="coontent" rows="4" cols="28" readonly="readonly">
+				1.协议要求。
+				2.我哥们是妮妮
+				3.我的朋友很少。
+		</textarea>
+	</form>
+</body>
+</html>
